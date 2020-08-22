@@ -328,7 +328,7 @@ iframe {
 .ftr-crt {
   display: grid;
   grid-template-columns: 3fr repeat(12, 1fr);
-  margin: 1% 5% 1% 5%;
+  margin: 1% 5%;
   font-size: 13px;
   grid-gap: 2px;
 }
