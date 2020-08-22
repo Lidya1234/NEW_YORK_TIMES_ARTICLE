@@ -97,10 +97,6 @@ iframe {
   font-size: 55px;
 }
 
-.section-1 h4 {
-  color: #e8bb97;
-}
-
 #main-img {
   width: 100%;
   height: 75%;
@@ -150,6 +146,11 @@ iframe {
 
 .mid {
   padding-left: 28%;
+  justify-content: center;
+}
+
+#subs {
+  padding-left: 6%;
 }
 
 .mid h3 {
@@ -164,15 +165,15 @@ iframe {
 }
 
 .section-2 hr {
-  width: 70px;
+  width: 80px;
   height: 1px;
   margin: 2% 20%;
   background-color: rgb(95, 92, 92);
 }
 
 .section-3 {
-  margin: 1% 15% 1% 15%;
-  width: 70%;
+  margin: 1% 10%;
+  width: 90%;
 }
 
 .grid1 {
@@ -180,13 +181,17 @@ iframe {
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 5px;
-  background-image: url("images/wholegrid.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  margin: 0 auto;
+  width: 100%;
+  padding-right: 10%;
+}
+
+.grid1 img {
+  width: 80%;
 }
 
 .griditem {
-  margin-top: 90%;
+  margin-top: 2%;
   height: 90%;
   width: 90%;
   padding-top: 2%;
@@ -196,7 +201,7 @@ iframe {
   height: 100%;
   width: 100%;
   padding-top: 2%;
-  margin-top: 20%;
+  margin-top: 2%;
 }
 
 .griditem2 {
@@ -299,23 +304,6 @@ iframe {
   margin-right: 2%;
 }
 
-.heading {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.heading a {
-  text-decoration: none;
-  padding-left: 5%;
-  padding-top: 10px;
-}
-
-.heading p {
-  margin: 0;
-  padding-left: 50%;
-  padding-top: 10px;
-}
-
 .ftr {
   padding: 1% 5% 1% 5%;
 }
@@ -337,11 +325,6 @@ iframe {
   width: 17px;
 }
 
-.s-ftr a {
-  font-size: 20px;
-  font-weight: bolder;
-}
-
 .ftr-crt {
   display: grid;
   grid-template-columns: 3fr repeat(12, 1fr);
@@ -357,4 +340,37 @@ iframe {
 .bold {
   font-weight: bolder;
   font-size: 16px;
+}
+
+.fixfoot {
+  display: grid;
+  grid-template-columns: 10fr 0.5fr 0.5fr;
+  align-items: center;
+  border-top: 1px solid #333333;
+  height: 56px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  padding-right: 60px;
+}
+
+.info p {
+  text-align: center;
+  padding-left: 16%;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.expand p {
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.arrow-button img {
+  width: 20px;
+  cursor: pointer;
 }
