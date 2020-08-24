@@ -10,7 +10,7 @@ This is a project to demonstrate the exisiting knowledge of HTML and CSS. It is 
 
 <i>Built With HTML5, CSS3, GIT, and VSCODE</i>
 
-Live Demo : https://new-york-article.netlify.app/
+Live Demo : https://new-york-times-article.netlify.app
 
 <h1>Getting Started</h1>
 
